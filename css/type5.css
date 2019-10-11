@@ -1,0 +1,29 @@
+.type__5{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: .75rem;
+    margin-bottom: .75rem;
+}
+.type__5-image{
+    flex-grow: 1;
+    display: block;
+}
+
+.type__5-image img{
+    width: 8rem;
+    position: relative;
+}
+
+.type__5-body{
+    flex-grow: 3;
+    display: flex;
+    padding: 0 .75rem;
+}
+
+.type__5-body .title{
+    font-size: 16px;
+    font-weight: 700;
+    color: #242424;
+}
