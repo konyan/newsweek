@@ -6,6 +6,7 @@
 
 
 @import './magazine.css';
+@import './slide.css';
 
 main {
   background-color: white;
