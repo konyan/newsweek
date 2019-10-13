@@ -4,9 +4,9 @@
 @import "./type2.css";
 @import "./type1.css";
 
-
-@import './magazine.css';
-@import './slide.css';
+@import "./magazine.css";
+@import "./slide.css";
+@import "./subscribe.css";
 
 main {
   background-color: white;
@@ -76,8 +76,21 @@ main {
     center/contain no-repeat;
 }
 
-.lk-5{
-    color: #333;
-    font-weight: bold;
-    font-size: 15px;
+.lk-5 {
+  color: #333;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.category-type {
+  margin-top: 1rem;
+  border-top: 1px solid #e3e3e3;
+  padding-top: 1rem;
+}
+
+.category-type .type-title {
+  padding: 0.5rem 0;
+  color: red;
+  font-weight: 700;
+  text-transform: uppercase;
 }
