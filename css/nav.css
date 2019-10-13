@@ -33,3 +33,31 @@ nav ul li a{
 nav div{
     flex-grow: 4;
 }
+
+
+.search-block{
+    padding: 1rem;
+    flex-grow: 1;
+    position: relative;
+}
+
+.search-block .search-input{
+    margin-right: 1rem;
+    outline: none;
+    outline-width: 0;
+    border: none;
+}
+
+.search-block i{
+    display: inline-block;
+    position: absolute;
+    right: 24%;
+    padding: 2.5%;
+}
+input:focus{
+    outline: none;
+}
+
+.search-block .search-input:focus{
+    
+}
