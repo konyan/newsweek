@@ -54,7 +54,7 @@ header {
   text-transform: uppercase;
   padding: 0 0.5rem;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
   margin-right: 1rem;
 }
 
@@ -63,6 +63,27 @@ header {
   color: #f7230f;
   border-radius: 1px;
   margin-right: 1rem;
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .header-line__subscribe {
+      margin: 0;
+      bottom: 10px;
+  }
+  .header-line__btn {
+    font-size: 0.8rem;
+    margin-right: .2rem;
+  }
+  .header-line__sign-in {
+    font-size: 0.8rem;
+    margin-right: .2rem;
+  }
+
+  .navigation__background{
+      height: 90.5% !important;
+      bottom: 0;
+  }
 }
 
 .navigation__checkbox {
@@ -78,7 +99,7 @@ header {
   bottom: 0;
   right: -200px;
   z-index: 1001;
-  transition: all .7s;
+  transition: all 0.7s;
   box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
@@ -87,22 +108,22 @@ header {
   right: 0;
 }
 
-.navigation-lable{
-    margin: 0;
-    padding: 0;
+.navigation-lable {
+  margin: 0;
+  padding: 0;
 }
 
-.closeBtn{
-    display: inline-block;
+.closeBtn {
+  display: inline-block;
 }
-.openBtn{
-    display: none;
+.openBtn {
+  display: none;
 }
 
-.navigation__checkbox:checked ~ .closeBtn{
-    display: none;
+.navigation__checkbox:checked ~ .closeBtn {
+  display: none;
 }
 
 .navigation__checkbox:checked ~ .openBtn {
-    display: inline-block;
+  display: inline-block;
 }
