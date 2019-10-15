@@ -1,6 +1,6 @@
 .subscribe-block {
   position: relative;
-  padding-top: 1.5rem;
+  padding-top: 2rem;
   margin-top: 2rem;
   padding-bottom: 4rem;
   border-bottom: 1px solid #f4f4f4;
@@ -64,8 +64,8 @@
   padding: 2rem;
 }
 
-.subscribe-block .col-r  .info{
-    border: 1px solid #ebebeb;
+.subscribe-block .col-r .info {
+  border: 1px solid #ebebeb;
 }
 
 .subscribe-block h3 {
@@ -91,8 +91,8 @@
   display: flex;
 }
 
-.f1{
-    flex: 1;
+.f1 {
+  flex: 1;
 }
 .subscribe-block .col-r .image {
   width: 48%;
