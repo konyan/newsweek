@@ -91,3 +91,18 @@ header {
     margin: 0;
     padding: 0;
 }
+
+.closeBtn{
+    display: inline-block;
+}
+.openBtn{
+    display: none;
+}
+
+.navigation__checkbox:checked ~ .closeBtn{
+    display: none;
+}
+
+.navigation__checkbox:checked ~ .openBtn {
+    display: inline-block;
+}
