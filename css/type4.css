@@ -1,0 +1,46 @@
+.type__4{
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #d4d4d4;
+    margin-bottom: 1.4rem;
+}
+
+.type__4-image{
+    position: relative;
+    flex-grow: 1;
+    /* display: flex; */
+}
+
+.type__4-image img{
+    width: 4em;
+    border-radius: 2rem;
+}
+
+.type__4-body{
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+}
+
+.type__4-body .title{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    text-justify: newspaper;
+    margin-bottom: .5rem;
+}
+
+.type__4-body .title:hover{
+    text-decoration:underline #f72210;
+    cursor: pointer;
+    color: #f72210;
+}
+
+.type__4-body .author{
+    font-size: 12px;
+    font-weight: 500;
+    color: #646464;
+    text-align: justify;
+}

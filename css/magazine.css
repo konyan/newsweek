@@ -1,0 +1,116 @@
+.magazine-div {
+  margin-top: 2rem;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.magazine-div .magazine-top-title .icon-n {
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+    no-repeat #f72210;
+    display: inline-block;
+    width: 29px;
+    height: 28px;
+    margin-right: 1rem;
+    margin-bottom: -.5rem;
+    flex: none;
+}
+
+.magazine-div .magazine-top-title {
+  font-size: 20px;
+  font-weight: 500;
+  display: block;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e3e3e3;
+  padding-bottom: 1rem;
+}
+
+.magazine-special .body {
+  position: relative;
+}
+
+.magazine-special .body img {
+  width: 100%;
+  height: auto;
+}
+
+.magazine-special .body .title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: red;
+  padding: 0.5rem;
+  background-color: #e3e3e3;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.magazine-special .btn {
+  width: 100%;
+  padding: 0.45rem;
+  margin: 0;
+  background-color: #f4f5f6;
+  border: none;
+  border-radius: 0;
+}
+
+.magazine-special .special-btn {
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.magazine-special .special-btn:after {
+  background: url(https://g.newsweek.com/www/images/icon-arrow-right-black.svg)
+    center/contain no-repeat;
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 15px;
+  margin-left: 10px;
+}
+
+.magazine {
+  width: 100%;
+}
+
+.magazine .body {
+  position: relative;
+}
+
+.magazine .body img {
+  width: 100%;
+}
+
+.magazine .content {
+  margin: 0.5rem 0;
+  padding: 0;
+  text-align: left;
+}
+
+.magazine .content .category {
+  display: inline-block;
+  position: relative;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  margin: 0;
+  background-color: red;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.magazine .content .location {
+  display: inline-block;
+}
+
+.magazine .content .title {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: justify;
+}

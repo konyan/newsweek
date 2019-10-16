@@ -1,0 +1,13 @@
+@import './header.css';
+@import './nav.css';
+@import './body.css';
+@import './footer.css';
+
+
+
+html,body{
+    background-color: #F4F5F6;
+    width: 100%;
+    height: auto;
+    font-family: 'Roboto Slab', serif;
+}

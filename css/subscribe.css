@@ -1,0 +1,103 @@
+.subscribe-block {
+  position: relative;
+  padding-top: 2rem;
+  margin-top: 2rem;
+  padding-bottom: 4rem;
+  border-bottom: 1px solid #f4f4f4;
+  margin-bottom: 2rem;
+}
+
+.subscribe-block::before {
+  content: "";
+  display: block;
+  background-color: #f4f4f4;
+  height: 2px;
+  position: absolute;
+  top: 0;
+  left: -30px;
+  right: -30px;
+}
+
+.block-title {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+  color: #f72210;
+}
+
+.subscribe-block .col-l {
+  background-color: #f4f4f4;
+  padding: 1.8rem;
+  display: flex;
+}
+
+.subscribe-block .col-l .image {
+  position: relative;
+  padding-bottom: 13px;
+  padding-right: 90px;
+}
+
+.mag-thumb.prev {
+  width: 170px;
+  height: 229px;
+}
+.mag-thumb.current {
+  position: absolute;
+  top: 13px;
+  left: 80px;
+}
+
+.mag-thumb {
+  width: 170px;
+  height: 229px;
+  display: inline-block;
+}
+
+.image img {
+  width: 100%;
+  vertical-align: middle;
+  height: auto;
+}
+
+.subscribe-block .info {
+  padding: 2rem;
+}
+
+.subscribe-block .col-r .info {
+  border: 1px solid #ebebeb;
+}
+
+.subscribe-block h3 {
+  margin-bottom: 1rem;
+  line-height: 2rem;
+  font-size: 24px;
+  position: relative;
+  display: block;
+}
+
+.subscribe-block p {
+  margin-bottom: 25px;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.subscribe-block .lk.red {
+  color: white;
+  background-color: red;
+}
+
+.subscribe-block .col-r.f1 {
+  display: flex;
+}
+
+.f1 {
+  flex: 1;
+}
+.subscribe-block .col-r .image {
+  width: 48%;
+  height: auto;
+  max-width: 191px;
+  background: url("https://d.newsweek.com/en/full/1525348/newsletter-promo-home-page.png?w=397&h=265&q=90&f=172a044c08b5e64f42dcb61b425487bf")
+    center center / cover no-repeat;
+}
