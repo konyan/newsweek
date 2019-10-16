@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>News Week</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -52,56 +52,57 @@
                 </div>
                 <div class="d-block d-md-block d-lg-none">
                     <div class="header-line position-fixed fixed-top">
-                        <h4 class="title text-left">Newsweek</h1>
-                            <div class="header-line__subscribe">
-                                <a class="header-line__sign-in">Sign in</a>
-                                <button class="header-line__btn">SUBSCRIBE ></button>
-                                <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
-                                <div class="navigation__background">
-                                    <div class="slider">
-                                        <ul>
-                                            <div class="search-block">
-                                                <i class="fas fa-search"></i>
-                                                <input type="text" class="search-input" placeholder="Search">
-                                            </div>
-                                            <li><a>U.S </a></li>
-                                            <li><a>World</a></li>
-                                            <li><a>Business</a></li>
-                                            <li><a>Tech & Science</a></li>
-                                            <li><a>Culture</a></li>
-                                            <li><a>Newsgeek</a></li>
-                                            <li><a>Sports</a></li>
-                                            <li><a>Health</a></li>
-                                            <li><a>Opinion</a></li>
-                                            <li><a>Vantage</a></li>
-                                        </ul>
-
+                        <h4 class="title text-left">Newsweek</h4>
+                        <div class="header-line__subscribe">
+                            <a class="header-line__sign-in">Sign in</a>
+                            <button class="header-line__btn">SUBSCRIBE ></button>
+                            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+                            <div class="navigation__background">
+                                <div class="slider">
+                                    <div class="search-block">
+                                        <i class="fas fa-search"></i>
+                                        <input type="text" class="search-input" placeholder="Search">
                                     </div>
+                                    <ul>
+
+                                        <li><a>U.S </a></li>
+                                        <li><a>World</a></li>
+                                        <li><a>Business</a></li>
+                                        <li><a>Tech & Science</a></li>
+                                        <li><a>Culture</a></li>
+                                        <li><a>Newsgeek</a></li>
+                                        <li><a>Sports</a></li>
+                                        <li><a>Health</a></li>
+                                        <li><a>Opinion</a></li>
+                                        <li><a>Vantage</a></li>
+                                    </ul>
+
                                 </div>
-                                <label for="navi-toggle" class="navigation-lable closeBtn">
-                                    <i class="fas fa-bars nav-icon" for="navi-toggle"></i>
-                                </label>
-
-                                <label for="navi-toggle" class="navigation-lable openBtn">
-                                    <i class="fas fa-times nav-icon"></i>
-                                </label>
-
-
-
                             </div>
+                            <label for="navi-toggle" class="navigation-lable closeBtn">
+                                <i class="fas fa-bars nav-icon"></i>
+                            </label>
+
+                            <label for="navi-toggle" class="navigation-lable openBtn">
+                                <i class="fas fa-times nav-icon"></i>
+                            </label>
+
+
+
+                        </div>
 
                     </div>
                 </div>
+
+
+            </header>
         </div>
-
-        </header>
-
         <main class="col-md-12 col-lg-11 col-sm-12">
             <div class="container-fluid">
                 <section class="row">
                     <div class="col-md-12 col-lg-8">
                         <div class="row">
-                            <div class="col-md-5">
+                            <div class="col-md-5 order-md-1 order-sm-2 col-sm-12">
                                 <h4 class="stories-title">FEATURED STOREIS</h4>
                                 <article class="type__1">
                                     <div class="type__1-image">
@@ -237,7 +238,7 @@
 
                                 </article>
                             </div>
-                            <div class="col-md-7">
+                            <div class="col-md-7 order-md-2 order-sm-1 col-sm-12">
                                 <section>
                                     <h4 class="stories-title">TOP STORY</h4>
                                     <article class="type__1">
@@ -792,7 +793,7 @@
                                     </article>
                                 </div>
                             </div>
-                            <section>
+                            <div>
                                 <article class="type__1" style="margin-bottom: 2rem">
                                     <div class="type__1-image">
                                         <img src="https://d.newsweek.com/en/full/1534895/hong-kong-apple.jpg?w=397&h=265&q=90&f=a910bde4fadf7c83e27e2a2b76e017dd"
@@ -833,7 +834,7 @@
                                     </div>
 
                                 </article>
-                                <section>
+                                <div>
                                     <div class="block block-fusion-newsletters">
                                         <div class="content">
                                             <div class="newsletter-signup">
@@ -851,7 +852,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </section>
+                                </div>
                                 <article class="type__1">
                                     <div class="type__1-image">
                                         <img src="https://d.newsweek.com/en/full/1534895/hong-kong-apple.jpg?w=397&h=265&q=90&f=a910bde4fadf7c83e27e2a2b76e017dd"
@@ -872,7 +873,7 @@
                                     </div>
 
                                 </article>
-                            </section>
+                            </div>
 
 
 
@@ -884,9 +885,9 @@
                     <h4 class="magazine-top-title">
                         <span class="icon-n"></span>IN THE MAGAZINE
                     </h4>
-                    <section class="row" style="margin-top: 2rem;">
+                    <div class="row" style="margin-top: 2rem;">
                         <div class="col-md-3">
-                            <article class="magazine-special">
+                            <div class="magazine-special">
                                 <div class="body">
                                     <img src="https://d.newsweek.com/en/full/1531488/october-11-18-2019.jpg?w=360&h=480&q=90&f=8a6178c02956a944ee55a303cf81ef89"
                                         alt="magazine" />
@@ -895,7 +896,7 @@
                                 <div class="btn">
                                     <button class="special-btn">SEe all features</button>
                                 </div>
-                            </article>
+                            </div>
                         </div>
                         <div class="col-md-3">
                             <article class="magazine">
@@ -948,8 +949,8 @@
                                 </div>
                             </article>
                         </div>
-                    </section>
-                    <section class="row" style="margin-top: 2rem;">
+                    </div>
+                    <div class="row" style="margin-top: 2rem;">
 
                         <div class="col-md-3">
                             <article class="magazine">
@@ -1019,7 +1020,7 @@
                                 </div>
                             </article>
                         </div>
-                    </section>
+                    </div>
                 </section>
 
                 <section class="magazine-div">
@@ -1306,7 +1307,6 @@
                                         </div>
                                     </article>
                                 </div>
-                                </article>
                             </div>
 
                             <div class="row">
@@ -1323,7 +1323,6 @@
                                         </div>
                                     </article>
                                 </div>
-                                </article>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
@@ -1339,7 +1338,6 @@
                                         </div>
                                     </article>
                                 </div>
-                                </article>
                             </div>
 
                         </div>
@@ -1385,7 +1383,6 @@
                                         </div>
                                     </article>
                                 </div>
-                                </article>
                             </div>
 
                             <div class="row">
@@ -1402,7 +1399,6 @@
                                         </div>
                                     </article>
                                 </div>
-                                </article>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
@@ -1418,7 +1414,6 @@
                                         </div>
                                     </article>
                                 </div>
-                                </article>
                             </div>
 
                         </div>
@@ -1464,7 +1459,6 @@
                                         </div>
                                     </article>
                                 </div>
-                                </article>
                             </div>
 
                             <div class="row">
@@ -1481,7 +1475,6 @@
                                         </div>
                                     </article>
                                 </div>
-                                </article>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
@@ -1497,7 +1490,6 @@
                                         </div>
                                     </article>
                                 </div>
-                                </article>
                             </div>
 
                         </div>
@@ -1543,7 +1535,6 @@
                                         </div>
                                     </article>
                                 </div>
-                                </article>
                             </div>
 
                             <div class="row">
@@ -1560,7 +1551,6 @@
                                         </div>
                                     </article>
                                 </div>
-                                </article>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
@@ -1576,7 +1566,6 @@
                                         </div>
                                     </article>
                                 </div>
-                                </article>
                             </div>
 
                         </div>
@@ -1622,7 +1611,6 @@
                                         </div>
                                     </article>
                                 </div>
-                                </article>
                             </div>
 
                             <div class="row">
@@ -1639,7 +1627,6 @@
                                         </div>
                                     </article>
                                 </div>
-                                </article>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
@@ -1655,7 +1642,6 @@
                                         </div>
                                     </article>
                                 </div>
-                                </article>
                             </div>
 
                         </div>
@@ -1701,7 +1687,6 @@
                                         </div>
                                     </article>
                                 </div>
-                                </article>
                             </div>
 
                             <div class="row">
@@ -1718,7 +1703,6 @@
                                         </div>
                                     </article>
                                 </div>
-                                </article>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
@@ -1734,7 +1718,6 @@
                                         </div>
                                     </article>
                                 </div>
-                                </article>
                             </div>
 
                         </div>
@@ -1747,13 +1730,11 @@
                             <div class="col-l f1 flex-sm ai-c row">
                                 <div class="fn image col-md-4 col-sm-12">
                                     <div class="mag-thumb prev">
-                                        <img data-src="https://d.newsweek.com/en/full/1532653/cover-october-04-2019.jpg?w=170&amp;q=95&amp;f=3f74c91cf1920f15b1b53ee37c6321ab"
-                                            class="lazyloaded"
+                                        <img alt="prve" class="lazyloaded"
                                             src="https://d.newsweek.com/en/full/1532653/cover-october-04-2019.jpg?w=170&amp;q=95&amp;f=3f74c91cf1920f15b1b53ee37c6321ab">
                                     </div>
                                     <div class="mag-thumb current">
-                                        <img data-src="https://d.newsweek.com/en/full/1531488/october-11-18-2019.jpg?w=170&amp;q=95&amp;f=a78cd4d1f090989a835fd1efa3fa1833"
-                                            class="lazyloaded"
+                                        <img alt="current" class="lazyloaded"
                                             src="https://d.newsweek.com/en/full/1531488/october-11-18-2019.jpg?w=170&amp;q=95&amp;f=a78cd4d1f090989a835fd1efa3fa1833">
                                     </div>
                                 </div>
@@ -1787,7 +1768,7 @@
             </div>
         </main>
 
-        <footer class="row">
+        <footer class="col-md-12 col-lg-11 col-sm-12">
             <div class="page-footer container-fluid">
                 <div class="row">
                     <div class="flex-sm col-sm-12">
@@ -1854,7 +1835,6 @@
 
             </div>
         </footer>
-    </div>
     </div>
 
 
