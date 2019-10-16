@@ -1,4 +1,6 @@
 header {
+  width: 100%;
+  min-height: 60px;
 }
 
 .header-line {
